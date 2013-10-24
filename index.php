@@ -1,0 +1,14 @@
+<!doctype html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <form method="post" id="id">
+            <textarea id="code" class="code" placeholder="Your code" onkeyup="replace();"></textarea><br/>
+            <textarea id="replaceDiv" class="code" placeholder="Your code"></textarea><br/>
+            <button class="submitCode">Submit Code</button>
+        </form>
+        <script type="text/javascript" src="script.js"></script>
+    </body>
+</html>
